@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/tabela/button.css">
+    <link rel="stylesheet" href="style/tabela/main.css">
+    <link rel="stylesheet" href="style/tabela/modal.css">
+    <link rel="stylesheet" href="style/tabela/records.css">
+    <script src="style/tabela/table.js" defer></script>
+    <title>Controle de pedidos</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Controle de pedidos dos clientes</h1>
+        <a href="paginaInicial.html" class="new">Página Inicial</a>
+    </header>
+
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Inserir pedido</button>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Pedido</th>
+                    <th>Valor</th>
+                    <th>Data do Pedido</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Pedido</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente"
+                        required>
+                    <input type="text" id="email" class="modal-field" placeholder="Pedido do Cliente" required>
+                    <input type="number" id="celular" class="modal-field" placeholder="Valor do pedido" required>
+                    <input type="date" id="cidade" class="modal-field" placeholder="Data do Pedido" required>
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Inserir</button>
+                    <button id="cancelar" class="button red">Cancelar</button>
+
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        DDKV Inc.
+    </footer>
+</body>
+
+</html>

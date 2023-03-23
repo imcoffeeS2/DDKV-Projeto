@@ -1,0 +1,229 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #4777d6;
+
+    background-image: url("planodefundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+ddkv {
+    font-family: monospace;
+    font-size: 25px;
+    text-shadow: 2px;
+
+
+}
+
+button {
+    background-color: transparent;
+    border-color: #0095ff;
+    color: #000000;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+.sair {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    padding: 1px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: #11a41d;
+}
+
+.box {
+    align-items: center;
+
+
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.card {
+
+    background-color: rgba(95, 94, 94, 0.8);
+
+    padding: 50px;
+
+    border-style: groove;
+
+    border-color: #000000;
+
+    border-radius: 15px;
+
+    width: 350px;
+
+}
+
+
+
+.card-header {
+
+    padding-bottom: 30px;
+
+    opacity: 1;
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 155px;
+
+    height: 2px;
+
+    background-color: rgb(0, 0, 0);
+
+    display: block;
+
+    margin-top: -19px;
+
+    margin-left: 96px;
+
+}
+
+.card-content label {
+
+    color: rgb(0, 0, 0);
+
+    font-size: 10px;
+
+    opacity: 1;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 10px 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    width: 100%;
+
+    height: 70px;
+
+    background-color: #e03636;
+
+    border: none;
+
+    color: #000000;
+
+    margin: 15px 0;
+
+
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding: 0 5px;
+
+    background-color: transparent;
+
+    border: none;
+
+    border-bottom: 2px solid #000000;
+
+    outline: none;
+
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+.card-footer .submit {
+
+    width: 100%;
+
+    height: 60px;
+
+    background-color: #e03636;
+
+    border-style: groove;
+
+    border: #ffffff;
+
+    color: #000000;
+
+    margin: 20px 0;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 22px;
+
+    opacity: 1;
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: dotted;
+
+}
+
+#pagIni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 250px;
+    height: 25px;
+    border-radius: 7px;
+    padding: 0 1px;
+    background-color: rgb(128, 170, 255);
+    border-color: black;
+}
